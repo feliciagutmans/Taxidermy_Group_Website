@@ -11,52 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <style>
-    body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 {
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-2 {
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 {
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 {
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-   width: 500px;
-   height: 500px;
-   margin: auto;
-  }
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
   </style>
 </head>
 <body>
@@ -83,6 +38,15 @@
 </nav>
 
 <!-- First Container -->
+
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Taxidermy and Art</h3>
+  <img src="http://recyclenation.com/wp-content/uploads/2010/10/polly_systemic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3> "Systemic Inflammation" (2010). Image: Polly Morgan</h3>
+</div>
+
+<!-- Second Container -->
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -122,24 +86,7 @@
   </a>
 </div>
 
-<!-- Second Container -->
-
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Taxidermy and Art</h3>
-  <img src="http://recyclenation.com/wp-content/uploads/2010/10/polly_systemic.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3> "Systemic Inflammation" (2010). Image: Polly Morgan</h3>
-</div>
-
 <!-- Third Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">Artists' fascination with preserved animals</h3>
-  <p> Taxidermy is one of the oldest recognised aesthetic forms. However, artists today are subverting the practice even further. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
-
-<!-- Fourth Container -->
 <div class="container-fluid bg-3 text-center">
   <h3 class="margin">Where To Find Me?</h3><br>
   <div class="row">
@@ -156,6 +103,16 @@
       <img src="https://www.wired.com/wp-content/uploads/images_blogs/wiredscience/2010/10/amber-ant.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
   </div>
+</div>
+
+<!-- Fourth Container -->
+
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Artists' fascination with preserved animals</h3>
+  <p> Taxidermy is one of the oldest recognised aesthetic forms. However, artists today are subverting the practice even further. </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
 </div>
 
 <!-- Footer -->
