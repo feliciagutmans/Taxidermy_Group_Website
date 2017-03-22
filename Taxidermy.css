@@ -1,8 +1,8 @@
 Taxidermy.css
 
 <html lang="en">
- <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Simply Me</title>
+
+  <title>Taxidermy Theme</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,19 +17,19 @@ Taxidermy.css
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-      background-color: #33D4FF; /* Dark Blue */
+      background-color: #33D4FF; 
       color: #ffffff;
   }
   .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
+      background-color: #474e5d;
       color: #ffffff;
   }
   .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
+      background-color: #f5f6f7; 
+      color: #f5f6f7;
   }
   .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
+      background-color: #f5f6f7; 
       color: #fff;
   }
   .container-fluid {
@@ -51,9 +51,10 @@ Taxidermy.css
 
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 30%;
+      width: 40%;
+      height: 50%;
       margin: auto;
-      background-color: #33D4FF
+      background-color: #33D4FF;
 
   } 
 
@@ -66,8 +67,33 @@ Taxidermy.css
 	color: black;
 }
 
-
-
-
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 696px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:110px;
+font-family: 'Times New Roman', Times, Serif;
+font-weight:bold;
+text-transform: uppercase;
+padding-top: 100px;
+margin: 50px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
 
 

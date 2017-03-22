@@ -2,8 +2,9 @@
 
 <head>
 <link rel='stylesheet' type='text/css' href='Taxidermy.css'>
+
 <html lang="en">
- <!-- Theme Made By www.w3schools.com - No Copyright -->
+ 
   <title>Bootstrap Theme Simply Me</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,15 +37,42 @@
     </div>
   </div>
 </nav>
+  
+<!-- Warming Up -->
+<link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+<script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+
+<!--Video Section-->
+<section class="content-section video-section">
+  <div class="pattern-overlay">
+  <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=IbjPKnCf4HA',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <h1>Taxidermy</h1>  
+        <h3>A History</h3>
+     </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Video Section Ends Here-->
+<script >
+  $(document).ready(function () {
+
+    $(".player").mb_YTPlayer();
+
+});
+
+
+</script>
+
+<!--Video Section Ends Here-->
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
-  <h3 class="margin">The History of Taxidermy</h3>
-  <img src="https://pbs.twimg.com/profile_images/470871247820431361/Kq9eWK8J.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>From the beginning</h3>
-
-
-
+  <h3 class="margin">Scroll through time and discover taxidermy</h3>
+  
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
