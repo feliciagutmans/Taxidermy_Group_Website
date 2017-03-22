@@ -50,4 +50,20 @@
   .bg-3 {
     color: #ffffff;
   }
-   
+
+  #map {
+    height: 100%;
+    position: relative;
+    float: right;
+  }
+
+  .twitter-timeline {
+    size: 60%;
+  }
+
+  .twitter {
+    float: left;
+  }
+  .map > #googleMap {
+    float: right;
+  }
